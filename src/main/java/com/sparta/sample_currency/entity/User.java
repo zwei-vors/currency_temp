@@ -14,12 +14,10 @@ public class User {
 
     private String name;
     private String email;
-    private String status;
 
-    public User(String name, String email, String status) {
+    public User(String name, String email) {
         this.name = name;
         this.email = email;
-        this.status = status;
     }
 
     public User() {}
